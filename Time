@@ -1,0 +1,15 @@
+class time:
+    def __init__(self):
+        self.hour=00
+        self.minutes=00
+        self.seconds=00
+    def get_time(self):
+        self.hour = int(input("enter hour"))
+        self.minutes = int(input("enter minutes"))
+        self.seconds = int(input("enter seconds"))
+    def show_time(self):
+        print(self.hour,":",self.minutes,":",self.seconds)
+
+t = time()
+t.get_time()
+t.show_time()
